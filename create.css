@@ -1,0 +1,91 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* background-color: black; */
+}
+main{
+    background-color: black;
+    max-width: 45%;
+    margin-left: 25%;
+    margin-top: 20px;
+    max-height: 600px;
+    overflow: scroll;
+    z-index: 1;
+}
+nav img{
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+h1{
+    color: #E7E9EA;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+h5{
+    color: #E7E9EA;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 17px;
+}
+.create-content{
+    margin-left: 50px;
+}
+input{
+    background-color: black;
+    height: 50px;
+}
+input:focus-within{
+    border: 2px solid blue;
+}
+.name{
+    border: 2px solid blue;
+    width: 80%;
+   
+    /* background-color: black; */
+}
+input ::placeholder{
+    padding-left: 10px;
+}
+
+.email{
+    border: 2px solid blue;
+    width: 80%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+p{
+    color: lightgray;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 80%;
+}
+.select{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+}
+.options{
+    background-color: black;
+    color: #E7E9EA;
+}
+.options #selections{
+    background-color: black;
+    color: white;
+    height: 40px;
+    width: 70px;
+}
+#create{
+    width: 80%;
+    height: 45px;
+    border-radius: 25px;
+    margin-top: 40px;
+    margin-bottom: 25px;
+    color: black;
+    background-color: grey;
+    border: 1px solid gray;
+
+}
